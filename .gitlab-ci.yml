@@ -3,11 +3,13 @@ default:
 
 variables:
   GIT_DEPTH: 0
+  SAST_EXCLUDED_PATHS: gnulib,gnulib-src
 
 stages:
   - deploy
   - bootstrap
   - build
+  - test
   - upload
   - release
 
@@ -116,3 +118,6 @@ release:
   release:
     tag_name: $CI_COMMIT_TAG
     description: './description.md'
+
+include:
+  - template: Jobs/SAST.gitlab-ci.yml
