@@ -462,7 +462,7 @@ pipecmd *pipecmd_dup (pipecmd *cmd)
 			assert (newcmds->ncommands <= newcmds->commands_max);
 			newcmds->commands =
 			        xmalloc (newcmds->commands_max *
-			                 sizeof *newcmds->commands);
+				         sizeof *newcmds->commands);
 
 			for (i = 0; i < cmds->ncommands; ++i)
 				newcmds->commands[i] =
@@ -629,7 +629,7 @@ void pipecmd_sequence_command (pipecmd *cmd, pipecmd *child)
 		cmds->commands_max *= 2;
 		cmds->commands =
 		        xrealloc (cmds->commands,
-		                  cmds->commands_max * sizeof *cmds->commands);
+			          cmds->commands_max * sizeof *cmds->commands);
 	}
 
 	cmds->commands[cmds->ncommands++] = child;
