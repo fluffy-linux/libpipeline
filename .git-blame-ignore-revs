@@ -1,2 +1,6 @@
+# SPDX-FileCopyrightText: 2021 Colin Watson
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 # Apply clang-format
 404276eb7a026ebd4a018e68c0c1acf1a9e56663

@@ -1,9 +1,12 @@
 # pipeline-socketpair.m4 serial 3
+
+dnl SPDX-FileCopyrightText: 2009 Werner Fink <werner@suse.de>
+dnl SPDX-FileCopyrightText: 2010-2022 Colin Watson
 dnl
+dnl SPDX-License-Identifier: GPL-2.0-or-later
+
 dnl Check if the socketpair(2) system call can be used
 dnl and should be used as a fast replacement for pipe(2)
-dnl
-dnl Author: Werner Fink <werner@suse.de>, 2009
 
 AC_DEFUN([PIPELINE_SOCKETPAIR_PIPE],
 [ AC_MSG_CHECKING([if socketpair(2) can be used as fast replacement for pipe(2)])

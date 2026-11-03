@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021-2025 Colin Watson
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
@@ -15,3 +19,7 @@ repos:
     rev: v20.1.4
     hooks:
     -   id: clang-format
+-   repo: https://codeberg.org/fsfe/reuse-tool
+    rev: v6.3.0
+    hooks:
+    -   id: reuse

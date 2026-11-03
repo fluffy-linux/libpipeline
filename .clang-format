@@ -1,8 +1,13 @@
+# SPDX-FileCopyrightText: 2021 Colin Watson
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 BasedOnStyle: LLVM
 AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Empty
 BreakBeforeBraces: Linux
 ColumnLimit: 79
+CommentPragmas: 'SPDX-'
 ContinuationIndentWidth: 8
 IndentCaseLabels: true
 IndentGotoLabels: false

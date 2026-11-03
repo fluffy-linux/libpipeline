@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2010 Colin Watson
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 Error reporting for wait statuses:
  * "friendly name" for each command
  * function to print errors for array of statuses

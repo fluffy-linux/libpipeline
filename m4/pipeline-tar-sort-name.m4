@@ -1,4 +1,9 @@
 # pipeline-tar-sort-name.m4 serial 1
+
+dnl SPDX-FileCopyrightText: 2019 Colin Watson
+dnl
+dnl SPDX-License-Identifier: GPL-2.0-or-later
+
 dnl PIPELINE_TAR_SORT_NAME
 dnl Use the --sort=name option of GNU tar if it is available.
 dnl Note that this only works with Automake's default tar-v7 option.

@@ -1,0 +1,8 @@
+version = 1
+
+[[annotations]]
+# This file is generated automatically, so we don't want to edit it to add
+# comment headers.
+path = ["bootstrap"]
+SPDX-FileCopyrightText = "2003-2024 Free Software Foundation, Inc."
+SPDX-License-Identifier = "GPL-3.0-or-later"

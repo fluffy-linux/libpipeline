@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2010-2025 Colin Watson
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
 # libpipeline, a pipeline manipulation library
 
 Git repository: https://gitlab.com/libpipeline/libpipeline

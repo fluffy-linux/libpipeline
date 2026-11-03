@@ -1,21 +1,8 @@
-## Process this file with automake to produce Makefile.in
+# SPDX-FileCopyrightText: 2010-2017 Colin Watson
+#
+# SPDX-License-Identifier: GPL-2.0-or-later
 
-## Copyright (C) 2010-2017 Colin Watson.
-##
-## This file is part of libpipeline.
-##
-## libpipeline is free software; you can redistribute it and/or modify
-## it under the terms of the GNU General Public License as published by
-## the Free Software Foundation; either version 2 of the License, or (at
-## your option) any later version.
-##
-## libpipeline is distributed in the hope that it will be useful, but
-## WITHOUT ANY WARRANTY; without even the implied warranty of
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-## General Public License for more details.
-##
-## You should have received a copy of the GNU General Public License
-## along with libpipeline.  If not, see <https://www.gnu.org/licenses/>.
+## Process this file with automake to produce Makefile.in.
 
 dist_man3_MANS = libpipeline.3
 

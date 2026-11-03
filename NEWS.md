@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2010-2024 Colin Watson
+
+SPDX-License-Identifier: GPL-2.0-or-later
+-->
+
 libpipeline 1.5.8 (27 August 2024)
 ==================================
 
